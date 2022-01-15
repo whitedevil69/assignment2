@@ -158,3 +158,22 @@ footer p{
     color: white;
     text-align: center;
 }
+/*--------------------
+     media queries
+--------------------- */
+@media only screen and (max-width:668px) {
+    body{
+        width: 100%;
+    }
+    .collections{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media only screen and (min-width:668px) and (max-width:992px) {
+    body{
+        width: 100%;
+    }
+    .collections{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
