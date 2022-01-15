@@ -1,0 +1,120 @@
+/*------------------------
+ full container style 
+------------------------- */
+body{
+    margin: 0;
+}
+.container{
+    margin:5%;
+    display: flex;
+    justify-content: space-between;
+}
+/*-------------
+   icon style 
+-------------- */
+.fab{
+    justify-content: center;
+    color: white;
+    margin: 7px;
+}
+/*------------------
+   navigation style 
+------------------- */
+nav{
+    background-color: cadetblue;
+}
+nav li a{
+    text-decoration: none;
+    color: black;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    
+}
+nav li{
+    margin-right: 20px;
+    
+}
+/* -----------------
+     common style 
+------------------- */
+.common-font{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Russo One', sans-serif;
+}
+.side-by-side{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+}
+h1{
+    font-size: 50px;
+}
+.image{
+    margin-left: 20%;
+    width: 70%;
+}
+.collection-image{
+    width: 100%;
+}
+button{
+    margin-top: 10px;
+    background-color: cadetblue;
+    padding: 10px;
+}
+.text-center{
+    text-align: center;
+    font-size: 30px;
+}
+/*-------------------
+   top collection
+------------------- */
+.top-collections{
+    
+}
+.collections{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 50px;
+    margin: 50px;
+}
+.collection{
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 20px cadetblue;
+}
+.see-more{
+    margin-right: 120px;
+    margin-top: -30px;
+    text-align: end;
+    
+}
+.see-more a{
+    text-decoration: none;
+    color: rgb(43, 102, 104);
+    font-size: larger;
+    font-weight: 800;
+}
+/*---------
+   footer 
+----------- */
+footer{
+    background-color:cadetblue; 
+    height: 200px;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+footer div{
+    
+}
+footer h2{
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    text-align: center;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
