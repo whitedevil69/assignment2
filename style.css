@@ -1,138 +1,163 @@
 /*------------------------
  full container style 
 ------------------------- */
-body{
+body {
     margin: 0;
 }
-.container{
-    margin:5%;
+
+.container {
+    margin: 5%;
     display: flex;
     justify-content: space-between;
 }
+
 /*-------------
    icon style 
 -------------- */
-.fab{
+.fab {
     justify-content: center;
     color: white;
     margin: 7px;
 }
-.fas.fa-star{
+
+.fas.fa-star {
     color: rgba(255, 166, 0, 0.884);
     font-size: 13px;
 }
+
 /*------------------
    navigation style 
 ------------------- */
-nav{
+nav {
     background-color: cadetblue;
 }
-nav li a{
+
+nav li a {
     text-decoration: none;
     color: black;
 }
-nav ul{
+
+nav ul {
     list-style: none;
     display: flex;
-    
+
 }
-nav li{
-    padding:20px;
-    
+
+nav li {
+    padding: 20px;
+
 }
-nav li:hover{
+
+nav li:hover {
     background-color: black;
 }
-nav li:hover a{
-   color: white;
+
+nav li:hover a {
+    color: white;
 }
-nav li:hover .fas{
-   color: white;
+
+nav li:hover .fas {
+    color: white;
 }
+
 /* -----------------
      common style 
 ------------------- */
-.common-font{
+.common-font {
     font-family: 'Poppins', sans-serif;
     font-family: 'Russo One', sans-serif;
 }
-.side-by-side{
+
+.side-by-side {
     display: flex;
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding: 15px;
 }
-h1{
+
+h1 {
     font-size: 50px;
 }
-p{
+
+p {
     font-size: 20px;
 }
-.image{
+
+.image {
     margin-left: 20%;
     width: 70%;
-    transition: width 0.5s;
+    transition: width 0.6s;
 }
-.image:hover{
-    width: 80%;
+
+.image:hover {
+    width: 75%;
 }
-.collection-image{
-    width: 90%;
-    transition: width 0.5s;
+
+.collection-image {
+    width: 95%;
+    transition: width 0.6s;
 }
-.collection-image:hover{
+
+.collection-image:hover {
     width: 100%;
 }
 
-button{
+button {
     margin-top: 10px;
     background-color: cadetblue;
     padding: 10px;
     font-size: 18px;
-    transition: font-size 0.5s,color 0.3s;
+    transition: font-size 0.5s, color 0.3s;
 }
-button:hover{
+
+button:hover {
     border-radius: 5px;
     font-size: 20px;
     box-shadow: 1px 1px 5px cadetblue;
     color: white;
 }
-.text-center{
+
+.text-center {
     text-align: center;
     font-size: 30px;
 }
+
 /*-------------------
    top collection
 ------------------- */
-.top-collections{
-    
-}
-.collections{
+.top-collections {}
+
+.collections {
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 50px;
     margin-top: 50px;
     margin-right: 50px;
     margin-left: 50px;
 }
-.collection{
+
+.collection {
     padding: 20px;
     border-radius: 5px;
     box-shadow: 1px 1px 20px cadetblue;
 }
-.see-more{
+
+.see-more {
     margin-right: 120px;
     text-align: end;
     height: 100px;
 }
-.see-more a{
+
+.see-more a {
     text-decoration: none;
     color: rgb(43, 102, 104);
     font-size: 20px;
     margin-top: -10px;
     font-weight: 800;
 }
+
 /*----------------
    extra segment
 ----------------- */
@@ -140,40 +165,45 @@ button:hover{
 /*---------
    footer 
 ----------- */
-footer{
-    background-color:cadetblue; 
+footer {
+    background-color: cadetblue;
     height: 200px;
     padding-top: 20px;
     margin-top: 20px;
 }
-footer div{
-    
-}
-footer h2{
+
+footer div {}
+
+footer h2 {
     font-family: 'Courier New', Courier, monospace;
     color: white;
     text-align: center;
 }
-footer p{
+
+footer p {
     color: white;
     text-align: center;
 }
+
 /*--------------------
      media queries
 --------------------- */
 @media only screen and (max-width:668px) {
-    body{
+    body {
         width: 100%;
     }
-    .collections{
-        grid-template-columns: repeat(1,1fr);
+
+    .collections {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
+
 @media only screen and (min-width:668px) and (max-width:992px) {
-    body{
+    body {
         width: 100%;
     }
-    .collections{
-        grid-template-columns: repeat(2,1fr);
+
+    .collections {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
